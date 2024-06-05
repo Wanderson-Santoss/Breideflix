@@ -37,6 +37,98 @@
             </p>
         </div>
     </section>
-    <script src="script.js"></script>
+
+    <section class="filmes">
+        <nav class="filmes__tabs">
+            <button data-tab-button="em_breve" class="filmes__tabs__button filmes__tabs__button--is-active">
+                Em breve
+            </button>
+            <button data-tab-button="melhores" class="filmes__tabs__button">
+                Melhores Filmes
+            </button>
+            <button data-tab-button="sequencia" class="filmes__tabs__button">
+                Sequencia certa
+            </button>
+        </nav>
+        <!-- Corrigindo o data-tab-id de "em_beve" para "em_breve" -->
+        <ul data-tab-id="em_breve" class="filmes__list filmes__list--is-active">
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+        </ul>
+
+        <!-- Corrigindo data-id para data-tab-id -->
+        <ul data-tab-id="melhores" class="filmes__list">
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF5.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+        </ul>
+
+        <!-- Corrigindo data-id para data-tab-id -->
+        <ul data-tab-id="sequencia" class="filmes__list">
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF10.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+            <li class="filmes__list__item">
+                <img src="./dist/images/VF+1.jpg" alt="Filme 1">
+            </li>
+        </ul>
+    </section>
+
+    <section class="trailer">
+        <div class="trailer__video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XXXXXX" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="trailer__description">
+            <h2>Velozes e Furiosos 10</h2>
+            <p>
+                Descrição do filme Velozes e Furiosos 10. Uma breve sinopse sobre a trama, personagens principais, e outros detalhes interessantes.
+            </p>
+        </div>
+    </section>
+
+    <script src="./src/main.js"></script>
 </body>
 </html>
