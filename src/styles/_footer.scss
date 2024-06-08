@@ -1,0 +1,32 @@
+.footer {
+    &__container {
+        max-width: 100%; /* Alteração para 100% */
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__logo {
+        width: 60px; /* Redução do tamanho do logotipo para o celular */
+        margin: 0 auto 10px; /* Ajuste da margem inferior */
+    }
+
+    &__links {
+        margin-bottom: 16px;
+
+        img {
+            width: 20px; /* Redução do tamanho dos ícones de redes sociais para o celular */
+            margin: 0 auto 10px; /* Ajuste da margem inferior */
+        }
+
+        &__item {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                padding: 8px 16px;
+                display: block;
+            }
+        }
+    }
+}

@@ -5,6 +5,7 @@
 @use 'watchanywhere';
 @use 'faq';
 @use 'header';
+@use 'footer';
 
 @font-face{
     font-family: Avenir;
@@ -29,8 +30,25 @@
 
 .logoHero{
     width: 300px;
+    position: absolute;
+    top: 0;
     left: 0;
 }
+
+@media (max-width: 768px) {
+    .button {
+        height: 30px; 
+        font-size: 14px; 
+    }
+    .logoHero {
+        width: 200px; 
+    }
+    .button--dark {
+        display: none; 
+    }
+}
+
+
 
 .button{
     display: flex;
@@ -121,4 +139,3 @@ body{
     @include title(28px);
     
 }
-
