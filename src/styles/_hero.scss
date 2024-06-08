@@ -3,10 +3,16 @@
 .hero{
     padding: 5.6vw;
     min-height: 80vh;
-    background-image: url(../images/CAPA.webp);
+    background-image: url(../images/embreve.webp);
     background-repeat: no-repeat;
     text-align: center;
-    background-size: cover;
+    background-size: contain;
+    background-position: center center;
+
+    .button{
+        margin-top: 2vw;
+        margin-bottom: 8px;
+    }
 
     &__content{
         max-width: 640px;
